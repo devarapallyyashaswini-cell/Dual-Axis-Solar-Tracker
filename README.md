@@ -1,4 +1,4 @@
-# <h1 align="center">🌞 DUAL-AXIS SOLAR TRACKING SYSTEM 🌞</h1>
+# <h1 align="center"> DUAL-AXIS SOLAR TRACKING SYSTEM </h1>
 
 <p align="center">
 An automatic Dual-Axis Solar Tracking System that continuously aligns a solar panel with the sun using two LDR sensors, a TDA2822 IC, and DC geared motors to improve solar energy collection.
