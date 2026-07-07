@@ -1,4 +1,4 @@
-# <h1 align="center"> DUAL-AXIS SOLAR TRACKING SYSTEM </h1>
+# <h1 align="center">DUAL-AXIS SOLAR TRACKING SYSTEM</h1>
 
 <p align="center">
 An automatic Dual-Axis Solar Tracking System that continuously aligns a solar panel with the sun using two LDR sensors, a TDA2822 IC, and DC geared motors to improve solar energy collection.
@@ -6,10 +6,10 @@ An automatic Dual-Axis Solar Tracking System that continuously aligns a solar pa
 
 ---
 
-#  Table of Contents
+## Table of Contents
 
 - Overview
-- Project Images
+- Project Image
 - Problem Statement
 - Tools and Technologies
 - Hardware Components
@@ -23,41 +23,31 @@ An automatic Dual-Axis Solar Tracking System that continuously aligns a solar pa
 
 ---
 
-#  Overview
+# Overview
 
-This project presents the design and implementation of a **Dual-Axis Solar Tracking System** that automatically adjusts the orientation of a solar panel in both horizontal (azimuth) and vertical (elevation) directions to maximize sunlight exposure.
+This project presents the design and implementation of a Dual-Axis Solar Tracking System that automatically adjusts the orientation of a solar panel in both horizontal (azimuth) and vertical (elevation) directions to maximize sunlight exposure.
 
-The system uses **two Light Dependent Resistors (LDRs)** to detect differences in sunlight intensity. These signals are processed using a **TDA2822 IC**, which controls **two DC geared motors** responsible for rotating the panel until it faces the direction of maximum sunlight.
+The system uses two Light Dependent Resistors (LDRs) to detect differences in sunlight intensity. These signals are processed using a TDA2822 IC, which controls two DC geared motors responsible for rotating the panel until it faces the direction of maximum sunlight.
 
-The project demonstrates a simple and low-cost approach to automatic solar tracking suitable for educational purposes and small-scale renewable energy applications.
-
----
-
-#  Project Images
-
-## Prototype
-
-<p align="center">
-<img src="images/Prototype.jpg" width="600">
-</p>
-
-## Final Setup
-
-<p align="center">
-<img src="images/Final_Model.jpg" width="600">
-</p>
+The project demonstrates a simple, low-cost, and efficient approach to automatic solar tracking for educational purposes and small-scale renewable energy applications.
 
 ---
 
-#  Problem Statement
+# Project Image
+
+![Project](images/diagram.jpg)
+
+---
+
+# Problem Statement
 
 Conventional solar panels remain fixed after installation and cannot continuously face the sun. As the sun changes position throughout the day, the panel receives less direct sunlight, reducing the amount of energy generated.
 
-This project aims to develop a simple, affordable Dual-Axis Solar Tracking System that automatically adjusts the panel position using light sensors and DC motors to maintain maximum exposure to sunlight.
+This project aims to develop a simple and affordable Dual-Axis Solar Tracking System that automatically adjusts the solar panel position using light sensors and DC geared motors to maximize sunlight exposure.
 
 ---
 
-#  Tools and Technologies
+# Tools and Technologies
 
 ## Hardware
 
@@ -84,7 +74,7 @@ This project aims to develop a simple, affordable Dual-Axis Solar Tracking Syste
 
 ---
 
-#  Hardware Components
+# Hardware Components
 
 | Component | Quantity |
 |-----------|----------|
@@ -98,27 +88,25 @@ This project aims to develop a simple, affordable Dual-Axis Solar Tracking Syste
 
 ---
 
-#  Circuit Diagram
+# Circuit Diagram
 
-The following circuit shows the hardware connections used in the project.
+The following diagram illustrates the circuit connections used in the project.
 
-<p align="center">
-<img src="circuit/Circuit_Diagram.png" width="750">
-</p>
+![Circuit Diagram](circuit/Circuit_Diagram.jpg)
 
 ### Circuit Description
 
 - Two LDR sensors detect the direction of maximum sunlight.
 - The voltage difference between the LDRs is processed by the TDA2822 IC.
-- The IC drives the DC geared motors.
-- The motors rotate the solar panel in horizontal and vertical directions until balanced illumination is achieved.
-- The circuit is powered using a 9V battery.
+- The IC controls the DC geared motors.
+- The motors rotate the solar panel until it receives maximum sunlight.
+- The system operates using a 9V battery supply.
 
 ---
 
-#  System Architecture
+# System Architecture
 
-```
+```text
              Sunlight
                  │
                  ▼
@@ -139,25 +127,25 @@ The following circuit shows the hardware connections used in the project.
 
 ---
 
-#  Working Methodology
+# Working Methodology
 
 1. Assemble the supporting frame.
 2. Mount the solar panel.
 3. Install the two LDR sensors.
-4. Connect the LDRs to the TDA2822 IC.
+4. Connect the sensors to the TDA2822 IC.
 5. Connect the two DC geared motors.
 6. Connect the 9V battery.
-7. Place the system under sunlight.
-8. The LDRs continuously detect light intensity.
-9. The TDA2822 IC processes the signal difference.
-10. The motors rotate the panel until it faces the sun.
-11. The process repeats automatically throughout the day.
+7. Place the setup under sunlight.
+8. The LDR sensors continuously monitor light intensity.
+9. The TDA2822 IC processes the sensor signals.
+10. The motors rotate the panel toward the direction of maximum sunlight.
+11. The tracking process continues automatically throughout the day.
 
 ---
 
-# ▶ How to Run This Project
+# How to Run This Project
 
-### Step 1 — Hardware Assembly
+## Step 1: Hardware Assembly
 
 - Mount the solar panel.
 - Install the two LDR sensors.
@@ -165,58 +153,65 @@ The following circuit shows the hardware connections used in the project.
 - Connect the DC geared motors.
 - Connect the 9V battery.
 
-### Step 2 — Testing
+## Step 2: Testing
 
 - Place the setup under direct sunlight.
-- Power ON the circuit.
+- Switch on the power supply.
 - Observe the movement of the solar panel.
-- Verify smooth tracking in both axes.
+- Verify tracking in both horizontal and vertical directions.
 
 ---
 
-#  Future Improvements
+# Future Improvements
 
-- ESP32-based controller
-- IoT monitoring
-- Mobile application
+- ESP32 integration
+- IoT-based remote monitoring
+- Mobile application support
 - Weather monitoring
-- MPPT integration
+- Maximum Power Point Tracking (MPPT)
 - Solar data logging
 
 ---
 
-#  Project Structure
+# Project Structure
 
-```
-Dual-Axis-Solar-Tracking-System/
+```text
+Dual-Axis-Solar-Tracker/
 │
 ├── README.md
+├── LICENSE
+│
+├── docs/
+│   └── Project_Report.pdf
 │
 ├── hardware/
-│   └── materials.md
+│   └── BOM.md
 │
 ├── circuit/
-│   └── Circuit_Diagram.png
+│   └── Circuit_Diagram.jpg
 │
 └── images/
+    └── diagram.jpg
 ```
 
 ---
 
-#  Author & Contact
+# Author & Contact
 
 **Project:** Dual-Axis Solar Tracking System
 
 **Author:** Yashaswini Devarapally
 
-**Institution:** VNR VJIET, Hyderabad
+**Institution:** Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (VNR VJIET), Hyderabad
 
-**Department:** Electronics and Communication Engineering (ECE)
+**Department:** Electronics and Communication Engineering
 
- **Email:** devarapally.yashaswini@gmail.com
+**GitHub:** https://github.com/devarapallyyashaswini-cell
 
- **GitHub:** https://github.com/devarapallyyashaswini-cell
+**LinkedIn:** https://www.linkedin.com/in/yashaswini-devarapally-93960039a/
 
- **LinkedIn:** https://www.linkedin.com/in/yashaswini-devarapally-93960039a/
+**Email:** devarapally.yashaswini@gmail.com
 
 ---
+
+If you find this project useful, consider starring the repository.
