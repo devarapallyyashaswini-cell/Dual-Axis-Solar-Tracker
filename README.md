@@ -202,7 +202,7 @@ Dual-Axis-Solar-Tracker/
 
 **Author:** Yashaswini Devarapally
 
-**Institution:** Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology (VNR VJIET), Hyderabad
+**Institution:** VNR VJIET, Hyderabad
 
 **Department:** Electronics and Communication Engineering
 
