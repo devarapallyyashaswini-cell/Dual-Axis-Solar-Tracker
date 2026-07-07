@@ -6,7 +6,7 @@ An automatic Dual-Axis Solar Tracking System that continuously aligns a solar pa
 
 ---
 
-# 📑 Table of Contents
+#  Table of Contents
 
 - Overview
 - Project Images
@@ -23,7 +23,7 @@ An automatic Dual-Axis Solar Tracking System that continuously aligns a solar pa
 
 ---
 
-# 📖 Overview
+#  Overview
 
 This project presents the design and implementation of a **Dual-Axis Solar Tracking System** that automatically adjusts the orientation of a solar panel in both horizontal (azimuth) and vertical (elevation) directions to maximize sunlight exposure.
 
@@ -33,7 +33,7 @@ The project demonstrates a simple and low-cost approach to automatic solar track
 
 ---
 
-# 📷 Project Images
+#  Project Images
 
 ## Prototype
 
@@ -49,7 +49,7 @@ The project demonstrates a simple and low-cost approach to automatic solar track
 
 ---
 
-# ❓ Problem Statement
+#  Problem Statement
 
 Conventional solar panels remain fixed after installation and cannot continuously face the sun. As the sun changes position throughout the day, the panel receives less direct sunlight, reducing the amount of energy generated.
 
@@ -57,7 +57,7 @@ This project aims to develop a simple, affordable Dual-Axis Solar Tracking Syste
 
 ---
 
-# 🛠 Tools and Technologies
+#  Tools and Technologies
 
 ## Hardware
 
@@ -84,7 +84,7 @@ This project aims to develop a simple, affordable Dual-Axis Solar Tracking Syste
 
 ---
 
-# 🔩 Hardware Components
+#  Hardware Components
 
 | Component | Quantity |
 |-----------|----------|
@@ -98,7 +98,7 @@ This project aims to develop a simple, affordable Dual-Axis Solar Tracking Syste
 
 ---
 
-# ⚡ Circuit Diagram
+#  Circuit Diagram
 
 The following circuit shows the hardware connections used in the project.
 
@@ -116,7 +116,7 @@ The following circuit shows the hardware connections used in the project.
 
 ---
 
-# 🏗 System Architecture
+#  System Architecture
 
 ```
              Sunlight
@@ -139,7 +139,7 @@ The following circuit shows the hardware connections used in the project.
 
 ---
 
-# ⚙ Working Methodology
+#  Working Methodology
 
 1. Assemble the supporting frame.
 2. Mount the solar panel.
@@ -174,7 +174,7 @@ The following circuit shows the hardware connections used in the project.
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 - ESP32-based controller
 - IoT monitoring
@@ -185,7 +185,7 @@ The following circuit shows the hardware connections used in the project.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 Dual-Axis-Solar-Tracking-System/
@@ -203,7 +203,7 @@ Dual-Axis-Solar-Tracking-System/
 
 ---
 
-# 👩‍💻 Author & Contact
+#  Author & Contact
 
 **Project:** Dual-Axis Solar Tracking System
 
@@ -213,12 +213,10 @@ Dual-Axis-Solar-Tracking-System/
 
 **Department:** Electronics and Communication Engineering (ECE)
 
-📧 **Email:** devarapally.yashaswini@gmail.com
+ **Email:** devarapally.yashaswini@gmail.com
 
-🐙 **GitHub:** https://github.com/devarapallyyashaswini-cell
+ **GitHub:** https://github.com/devarapallyyashaswini-cell
 
-💼 **LinkedIn:** https://www.linkedin.com/in/yashaswini-devarapally-93960039a/
+ **LinkedIn:** https://www.linkedin.com/in/yashaswini-devarapally-93960039a/
 
 ---
-
-⭐ **If you found this project helpful, consider giving it a Star on GitHub!**
